@@ -7,7 +7,7 @@ title: 'Awesome article 1'
   import { Img, Heading, P } from 'flowbite-svelte'
 </script>
 
-<Img src="https://flowbite-svelte.com/images/examples/image-1@2x.jpg" alt="sample 1" size="max-w-lg" alignment="mx-auto" />
+<Img src="/images/image-1@2x.jpg" alt="sample 1" size="max-w-lg" alignment="mx-auto" />
 
 <Heading class="p-8" tag="h1" customSize="text-3xl">{title}</Heading>
 

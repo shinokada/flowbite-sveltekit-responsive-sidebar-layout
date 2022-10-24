@@ -3,7 +3,7 @@
 </script>
 
 <div class="flex justify-center py-8" >
-<Img src="https://flowbite-svelte.com/images/examples/image-1@2x.jpg" alt="sample 1" size="w-96" />
+<Img src="/images/image-1@2x.jpg" alt="sample 1" size="w-96" />
 </div>
 
 <Heading class="p-8" tag="h1" customSize="text-3xl">Responsive Sidegar Layout</Heading>
