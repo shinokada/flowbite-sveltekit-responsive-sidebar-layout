@@ -13,7 +13,7 @@ const fetchMarkdownPosts = async () => {
 	const iterableArticleFiles = Object.entries(articleFiles);
 	const iterablePageFiles = Object.entries(pageFiles);
 
-	const allArticles = await Promise.all(
+	const articles = await Promise.all(
 		iterableArticleFiles.map(async ([path, resolver]) => {
 			const { metadata } = await resolver();
 			const filePath = path.slice(17, -3);
@@ -35,5 +35,5 @@ const fetchMarkdownPosts = async () => {
 		})
 	);
 
-	return { pages, articles: allArticles };
+	return { pages, articles };
 };

@@ -70,7 +70,7 @@
 
 <Navbar let:hidden let:toggle>
 	<NavHamburger on:click={toggleDrawer} btnClass="ml-3 lg:hidden" />
-	<NavBrand href="/">
+	<NavBrand href="/" class="lg:ml-64">
 		<Cog />
 		<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white pl-4">
 			My Website
