@@ -27,7 +27,6 @@
 		easing: sineIn
 	};
 	export let data: PageData;
-	// let hidden2: boolean = true;
 
 	let breakPoint: number = 1024;
 	let width: number;

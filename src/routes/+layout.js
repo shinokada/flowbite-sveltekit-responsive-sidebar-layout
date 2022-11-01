@@ -4,6 +4,6 @@ export const load = async ({ fetch }) => {
 
 		return await response.json();
 	} catch (error) {
-		console.error(`Error in load function for /: ${error}`);
+		console.error(`Error in load function for : ${error}`);
 	}
 };
