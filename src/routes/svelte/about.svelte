@@ -1,19 +1,33 @@
 <script>
-	import { Img, Heading, P } from 'flowbite-svelte';
-	let title = 'Svelte About';
+  import { Img, Heading, P } from 'flowbite-svelte';
+  let title = 'Svelte About';
 </script>
 
 <Img src="/images/image-1@2x.jpg" alt="sample 1" size="max-w-lg" alignment="mx-auto" />
 
 <Heading class="p-8" tag="h1" customSize="text-3xl">{title}</Heading>
 
-<P class="px-8"
-	>Thinking longingly about tuna brine howl on top of tall thing and cats go for world domination
-	but going to catch the red dot today going to catch the red dot today destroy house in 5 seconds.
-	Lick plastic bags push your water glass on the floor ignore the squirrels, you'll never catch them
-	anyway. Playing with balls of wool chew iPad power cord let me in let me out let me in let me out
-	let me in let me out who broke this door anyway . Meow meow mama plop down in the middle where
-	everybody walks and purr purr purr until owner pets why owner not pet me hiss scratch meow brown
-	cats with pink ears. I show my fluffy belly but it's a trap! if you pet it i will tear up your
-	hand. Slap owner's face at 5am until human fills food dish.</P
->
+<P class="px-8 py-4">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+  labore et dolore magna aliqua. Amet cursus sit amet dictum sit. Quis enim lobortis scelerisque
+  fermentum dui faucibus in. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan.
+  Ipsum dolor sit amet consectetur adipiscing elit. Euismod nisi porta lorem mollis aliquam ut
+  porttitor. Tortor consequat id porta nibh. Tortor condimentum lacinia quis vel eros donec ac odio.
+  Elementum sagittis vitae et leo duis ut diam quam nulla. Vel turpis nunc eget lorem.
+</P>
+<P class="px-8 py-4">
+  Aliquet porttitor lacus luctus accumsan. Ac orci phasellus egestas tellus rutrum tellus. Non odio
+  euismod lacinia at quis risus sed. Nam libero justo laoreet sit amet cursus sit amet. Arcu odio ut
+  sem nulla pharetra diam sit amet nisl. Vulputate mi sit amet mauris commodo quis imperdiet.
+  Malesuada nunc vel risus commodo viverra. Eget nulla facilisi etiam dignissim diam quis enim. Hac
+  habitasse platea dictumst quisque. Ultrices gravida dictum fusce ut placerat orci nulla
+  pellentesque dignissim.
+</P>
+<P class="px-8 py-4">
+  Nec feugiat in fermentum posuere urna nec tincidunt praesent. Nulla pharetra diam sit amet nisl
+  suscipit adipiscing bibendum est. Eu turpis egestas pretium aenean pharetra magna. Ultricies lacus
+  sed turpis tincidunt id. Urna nec tincidunt praesent semper feugiat nibh. Aliquam etiam erat velit
+  scelerisque in dictum non consectetur. Suspendisse in est ante in nibh mauris cursus mattis
+  molestie. Facilisi nullam vehicula ipsum a. Tellus pellentesque eu tincidunt tortor aliquam nulla
+  facilisi. Libero justo laoreet sit amet cursus sit amet.
+</P>
