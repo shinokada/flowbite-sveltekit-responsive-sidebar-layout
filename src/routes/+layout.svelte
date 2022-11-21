@@ -79,7 +79,9 @@
   <NavUl {hidden} {divClass} {ulClass}>
     <NavLi href="/">Home</NavLi>
     <NavLi href="/pages/about">About</NavLi>
-    <NavLi href="https://github.com/themesberg/flowbite-svelte">GitHub</NavLi>
+    <NavLi href="https://github.com/shinokada/flowbite-sveltekit-responsive-sidebar-layout"
+      >GitHub</NavLi
+    >
   </NavUl>
 </Navbar>
 <DarkMode btnClass={darkmodebtn} />
