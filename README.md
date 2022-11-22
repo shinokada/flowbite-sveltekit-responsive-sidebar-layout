@@ -1,17 +1,19 @@
-# create-svelte
+# Flowbite Svelte Responsive Sidebar Layout Demo
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+[Demo](https://flowbite-sveltekit-responsive-sidebar-layout.vercel.app/)
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+## Clone the project
 
 ```bash
 # create a new project in the current directory
-npm create svelte@latest
+git clone git@github.com:shinokada/flowbite-sveltekit-responsive-sidebar-layout.git my-project
+```
 
-# create a new project in my-app
-npm create svelte@latest my-app
+## Install dependencies
+
+```
+cd my-project
+npm install
 ```
 
 ## Developing
