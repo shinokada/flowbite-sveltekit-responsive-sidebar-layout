@@ -9,10 +9,11 @@ git clone git@github.com:shinokada/flowbite-sveltekit-responsive-sidebar-layout.
 cd my-app
 # npm|pnpm|bun|yarn
 pnpm i
+pnpm update
 ```
 
 ## Starting a local server
 
 ```bash
-npm run dev
+pnpm dev
 ```
