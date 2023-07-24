@@ -1,7 +1,7 @@
 const config = {
 	content: [
-		"./src/**/*.{html,js,svelte,ts}",
-		"./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}",
+		'./src/**/*.{html,js,svelte,ts}',
+		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'
 	],
 
 	theme: {
@@ -21,13 +21,11 @@ const config = {
 					900: '#A5371B'
 				}
 			}
-		},
+		}
 	},
 
-	plugins: [
-		require('flowbite/plugin')
-	],
-	darkMode: 'class',
+	plugins: [require('flowbite/plugin')],
+	darkMode: 'class'
 };
 
 module.exports = config;
